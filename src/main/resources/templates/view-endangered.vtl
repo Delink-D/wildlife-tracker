@@ -1,0 +1,23 @@
+<div class="content">
+	<h2>View all <small>Endangered Animal</small></h2>
+	<hr>
+
+	<table id="myTable" class="table">
+		<thead>
+			<tr>
+				<th>Animal Name</th>
+				<th>Animal Age</th>
+				<th>Animal Health</th>
+			</tr>
+		</thead>
+		<tbody>
+			#foreach($animal in $animals)
+				<tr>
+					<td>$animal.getName()</td>
+					<td>$animal.getAge()</td>
+					<td>$animal.getHealth()</td>
+				</tr>
+			#end
+		</tbody>
+	</table>
+</div>

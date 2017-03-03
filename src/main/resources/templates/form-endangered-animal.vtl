@@ -1,0 +1,30 @@
+<div class="content">
+	<h2>Add Animals <small>Endangered Animal form</small></h2>
+	<hr>
+
+	<form class="my-form" action="/add-endangered/new" method="post">
+		<fieldset class="form-group">
+			<label for="name">Animal Name</label>
+			<input type="text" class="form-control" id="name" name="name" placeholder="Add Spoted Animal">
+		</fieldset>
+		<fieldset class="form-group">
+			<label for="age">Animal Age</label>
+			<select name="age" id="age" class="form-control">
+				<option value="Young">Young</option>
+				<option value="Newborn">Newborn</option>
+				<option value="Aldult">Aldult</option>
+			</select>
+		</fieldset>
+		<fieldset class="form-group">
+			<label for="health">Animal Health</label>
+			<select name="healthy" id="healthy" class="form-control">
+				<option value="Healthy">Healthy</option>
+				<option value="Okay">Okay</option>
+				<option value="Ill">Ill</option>
+			</select>
+		</fieldset>
+		<fieldset class="form-group">
+			<input type="submit" class="btn btn-primary" value="Add Animal">
+		</fieldset>
+	</form>
+</div>
